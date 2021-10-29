@@ -1,0 +1,109 @@
+html, body{
+min-height:100%;
+}
+
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body {
+font-family: 'Kumbh Sans', sans-serif;
+background: linear-gradient(to bottom, hsl(273, 75%, 66%) 0%,hsl(240, 73%, 65%) 100%) no-repeat;
+font-size: 16px;
+}
+
+h1 {
+color:hsl(238, 29%, 16%);
+padding-bottom: 25px;
+}
+
+.bram{
+position:relative;
+margin:0 auto;
+width:650px;
+}
+
+.block {
+position: relative;
+width: 950px;
+min-height: 550px;
+height: auto;
+margin:0 auto;
+margin-top:150px;
+border-radius: 30px;
+background-color: white;
+display: flex;
+}
+
+.block2 {
+position:relative;
+height: 550px;
+width: 450px;
+overflow: hidden;
+}
+
+.block3 {
+margin: 70px auto 0;
+width: 430px;
+}
+
+.firstphoto{
+position:absolute;
+min-height:1000px;
+width:1000px;
+left:-550px;
+top:-290px;
+z-index:1;
+}
+
+.secondphoto{
+position:absolute;
+top:75px;
+right:45px;
+z-index:2;
+}
+
+.thirdphoto {
+position: absolute;
+top:217px;
+left:-90px;
+z-index:3;
+}
+
+.last {
+margin-bottom: 25px;
+}
+
+.icon {
+float: right;
+margin-top: 15px;
+}
+
+.icon:hover {
+cursor: pointer;
+}
+
+.questionBlock {
+margin-bottom: 8px;
+padding-bottom: 22px;
+border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.question {
+display: inline-block;
+padding-top: 8px;
+color: hsl(238, 29%, 16%);
+}
+
+.question:hover {
+color:hsl(14, 88%, 65%);
+cursor: pointer;
+}
+
+.answer {
+display: none;
+padding-top: 8px;
+color: hsl(240, 6%, 50%);
+}
